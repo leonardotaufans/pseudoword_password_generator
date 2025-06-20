@@ -141,7 +141,6 @@ def get_pseudo_word(length: int):
     length_syllable = round(length / 2)
     current_syllable = 0
     while True:
-        print(f"loop {current_syllable + 1}")
         word_pre_validated = get_random_word_dictionary()
         # print(word_pre_validated)
         if len(
